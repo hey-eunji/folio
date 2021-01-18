@@ -1,0 +1,51 @@
+/* Global */
+:root{
+    /* Color */
+    --color-gs1:#000000;
+    --color-gs2:#424242;
+    --color-gs3:#616161;
+    --color-gs4:#757575;
+    --color-gs5:#9e9e9e;
+    --color-gs6:#bdbdbd;
+    --color-gs7:#e0e0e0;
+    --color-gs8:#eeeeee;
+    --color-gs9:#f5f5f5;
+    --color-gs10:#ffffff;
+    --color-brand_default:#ff5c00;
+
+    /* Font Size */
+    --font-tit-2xs:12px;
+    --font-tit-xs:14px;
+    --font-tit-sm:16px;
+    --font-tit-md:18px;
+    --font-tit-lg:21px;
+    --font-tit-xl:24px;
+    --font-tit-2xl:36px;
+    --font-tit-3xl:48px;
+    --font-tit-4xl:60px;
+    --font-tit-5xl:72px;
+
+    --font-txt-2xs:10px;
+    --font-txt-xs:12px;
+    --font-txt-sm:14px;
+    --font-txt-md:16px;
+    --font-txt-lg:18px;
+    --font-txt-xl:10px;
+    --font-txt-2xl:22px;
+    --font-txt-3xl:24px;
+    --font-txt-4xl:26px;
+    --font-txt-5xl:28px;
+
+    /* Font Weight */
+    --weight-light: 300;
+    --weight-regular:400;
+    --weight-medium:500;
+    --weight-bold:700;
+
+    /* Size */
+}
+
+/* Universal Tags */
+*{
+    box-sizing: border-box;
+}
