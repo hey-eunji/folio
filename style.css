@@ -30,7 +30,7 @@
     --font-txt-sm:14px;
     --font-txt-md:16px;
     --font-txt-lg:18px;
-    --font-txt-xl:10px;
+    --font-txt-xl:20px;
     --font-txt-2xl:22px;
     --font-txt-3xl:24px;
     --font-txt-4xl:26px;
@@ -48,4 +48,64 @@
 /* Universal Tags */
 *{
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color:var(--color-gs1)
+}
+
+ul {
+    list-style: none;
+    padding-left:0;
+}
+
+/* Typography */
+h1 {
+    font-size: var(--font-tit-4xl);
+    font-weight: var(--weight-medium);
+    color: var(--color-gs1)
+    margin: 4px 0;
+}
+
+h2 {
+    font-size: var(--font-tit-3xl);
+    font-weight: var(--weight-bold);
+    color: var(--color-gs2)
+    margin: 4px 0;
+}
+
+h3 {
+    font-size: var(--font-tit-xl);
+    font-weight: var(--weight-bold);
+    color: var(--color-gs1)
+    margin: 8px 0;
+}
+
+p {
+    font-size: var(--font-txt-md);
+    font-weight: var(--weight-regular);
+    color: var(--color-gs1)
+    margin: 8px 0;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--color-gs8);
+    align-items: center;
+}
+
+.navbar__menu {
+    display: -webkit-flex; /* Chrome */
+}
+
+.navbar__menu__item {
+    padding: 8px 12px;
+    margin: 0 4px;
 }
